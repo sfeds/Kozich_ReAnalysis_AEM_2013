@@ -41,9 +41,6 @@ knitr::knit_hooks$set(inline=inline_hook)
 ```
 
 
-
-
-
 ***Scaling up.***
 The advantage of the dual-index approach is that a large number of samples can be sequenced using a number of primers 
 equal to only twice the square root of the number of samples. To fully evaluate this approach, we resequenced the V4 
@@ -67,4 +64,4 @@ Figure 4:
 Principal coordinate ordination of ϴYC values (28) relating the community structures of the fecal microbiota from 12 
 mice collected on days 0 through 9 (Early) and days 141 through 150 (Late) after weaning.
 
-
+![](../results/figures/nmds_figure.png)
