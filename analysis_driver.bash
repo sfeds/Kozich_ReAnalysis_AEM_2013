@@ -35,3 +35,7 @@ code/mothur/mothur code/get_error.batch
 
 # Run cleanup data and classify
 code/mothur/mothur code/get_shared_otus.batch
+
+# Generate nmds axes file for plotting from shared file
+code/mothur/mothur code/get_nmds_data.batch
+

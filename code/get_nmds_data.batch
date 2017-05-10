@@ -1,0 +1,5 @@
+## New file for get_nmds_data.batch
+set.current(inputdir=data/mothur, outputdir=data/mothur, processors=8)
+dist.shared(shared=stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.shared, calc=thetayc, subsample=3000, iters=100, processors=8)
+nmds(phylip=current, maxdim=2)
+
