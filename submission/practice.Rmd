@@ -3,6 +3,8 @@ title: Reproducing Kozich et al 2013
 author: Susana Fuentes
 date: "May 10th, 2017"
 output: html_document
+bibliography: references.bib
+csl: mbio.csl #Get themes at https://github.com/citation-style-language/styles
 ---
 
 ```{r knitr_settings, eval=TRUE, echo=FALSE, cache=FALSE}
@@ -39,13 +41,13 @@ knitr::knit_hooks$set(inline=inline_hook)
  average_sequence_counts <- mean(sequence_counts)
  percentile_sequence_counts <- quantile(sequence_counts, prob=0.05)
 ```
-
+This is our effort to reproduce the work of Kozich et al. which reanalized mouse data from Schloss et al. [@Schloss2012].
 
 ***Scaling up.***
 The advantage of the dual-index approach is that a large number of samples can be sequenced using a number of primers 
 equal to only twice the square root of the number of samples. To fully evaluate this approach, we resequenced the V4 
 region of 360 samples that were previously described by sequencing the distal end of the V35 region on the 
-454 GS-FLX Titanium platform (18). In that study, we observed a clear separation between murine fecal samples 
+454 GS-FLX Titanium platform [@Yue2005]. In that study, we observed a clear separation between murine fecal samples 
 obtained from 8 C57BL/6 mice at 0 to 9 (early) and 141 to 150 (late) days after weaning, and there was significantly 
 less variation between the late samples than the early samples. In addition to the mouse fecal samples, we allocated 
 2 pairs of indices to resequence our mock community. We generated `r million_sequence_counts` pairs of sequence reads 
