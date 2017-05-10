@@ -27,9 +27,9 @@ region of 360 samples that were previously described by sequencing the distal en
 454 GS-FLX Titanium platform (18). In that study, we observed a clear separation between murine fecal samples 
 obtained from 8 C57BL/6 mice at 0 to 9 (early) and 141 to 150 (late) days after weaning, and there was significantly 
 less variation between the late samples than the early samples. In addition to the mouse fecal samples, we allocated 
-2 pairs of indices to resequence our mock community. We generated `r million_sequence_counts` pairs of sequence reads 
-from the 16S rRNA gene with an average coverage of `r average_sequence_counts` 
-pairs of reads per sample (95% of the samples had more than `r percentile_sequence_counts` pairs of sequences) 
+2 pairs of indices to resequence our mock community. We generated `r format(round(million_sequence_counts, 1), nsmall=1L)` pairs of sequence reads 
+from the 16S rRNA gene with an average coverage of `r format(round(average_sequence_counts, 1), nsmall=1L)` 
+pairs of reads per sample (95% of the samples had more than `r format(round(percentile_sequence_counts, 1), nsmall=1L)` pairs of sequences) 
 using a new collection of 8-nt indices (see the supplemental material). Although individual samples were expected 
 to have various amplification efficiencies, analysis of the number of reads per index did not suggest a systematic 
 positive or negative amplification bias that could be attributed to the indices. The combined error rate for the two 
