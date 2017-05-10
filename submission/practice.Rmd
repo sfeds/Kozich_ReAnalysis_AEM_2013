@@ -38,7 +38,6 @@ knitr::knit_hooks$set(inline=inline_hook)
  million_sequence_counts <- sum(sequence_counts)/1e6
  average_sequence_counts <- mean(sequence_counts)
  percentile_sequence_counts <- quantile(sequence_counts, prob=0.05)
- summary(sequence_counts)
 ```
 
 
