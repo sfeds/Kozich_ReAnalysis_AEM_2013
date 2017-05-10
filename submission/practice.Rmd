@@ -13,8 +13,6 @@ output: html_document
  million_sequence_counts <- sum(sequence_counts)/1e6
  average_sequence_counts <- mean(sequence_counts)
  percentile_sequence_counts <- quantile(sequence_counts, prob=0.05)
-```
-```{r}
  summary(sequence_counts)
 ```
 
