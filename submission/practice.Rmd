@@ -1,4 +1,7 @@
 ---
+title: Reproducing Kozich et al 2013
+author: Susana Fuentes
+date: "May 10th, 2017"
 output: html_document
 ---
 
